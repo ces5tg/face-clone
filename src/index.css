@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .hover-effect-gray {
+      @apply hover:bg-gray-100 hover:rounded-md  active:bg-gray-200;
+    }
+  }
