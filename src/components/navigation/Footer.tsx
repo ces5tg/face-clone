@@ -1,8 +1,7 @@
-import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-green-500'>Footer </div>
+    <div className='bg-white'> </div>
   )
 }
 

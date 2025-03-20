@@ -24,7 +24,7 @@ const Navbar = () => {
     { id: "notifications", icon: "fas fa-bell" },
     { id: "account", icon: "fas fa-user-circle " },
   ]
-  const texto = "fas fa-chevron-down"
+  /* "fas fa-chevron-down" */
   const modalRef = useRef<HTMLDivElement | null>(null);
   const [openSearch, setOpenSearch] = useState<boolean>(false)
   useEffect(() => {

@@ -1,5 +1,4 @@
 import React from 'react'
-import FriendsLayout from '../../components/layout/FriendsLayout'
 
 const Friends: React.FC = () => {
 

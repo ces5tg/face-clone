@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer components {
-    .hover-effect-gray {
-      @apply hover:bg-gray-100 hover:rounded-md  active:bg-gray-200;
-    }
+  .hover-effect-gray {
+    @apply hover:bg-gray-100 hover:rounded-md active:bg-gray-200;
   }
+}
+
+@layer utilities {
+  .clip-triangle {
+    clip-path: polygon(10% 00%, 00% 80%, 80% 80%);
+  }
+}

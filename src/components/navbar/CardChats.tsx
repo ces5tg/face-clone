@@ -5,60 +5,70 @@ import Comunidad from './views/Comunidad'
 
 const usersList = [
     {
+        "id":"1",
         "nombre": "Leo Coaquira",
         "img": "/users/perfil1.png",
         "message": "Desarrollador apasionado por la tecnología y la innovación.",
         "ultima_conexion": "2 días"
     },
     {
+        "id":"2",
         "nombre": "Ana Pérez",
         "img": "/users/perfil2.png",
         "message": "Amante del diseño gráfico y la fotografía.",
         "ultima_conexion": "1 semana"
     },
     {
+        "id":"3",
         "nombre": "Carlos Gómez",
         "img": "/users/perfil1.png",
         "message": "Ingeniero de software con experiencia en IA.",
         "ultima_conexion": "3 semanas"
     },
     {
+        "id":"4",
         "nombre": "María López",
         "img": "/users/perfil2.png",
         "message": "Apasionada por la educación y el aprendizaje continuo.",
         "ultima_conexion": "5 días"
     },
     {
+        "id":"5",
         "nombre": "José Rodríguez",
         "img": "/users/perfil1.png",
         "message": "Desarrollador backend con experiencia en bases de datos.",
         "ultima_conexion": "2 semanas"
     },
     {
+        "id":"6",
         "nombre": "Luis Fernández",
         "img": "/users/perfil2.png",
         "message": "Emprendedor en el mundo de las startups tecnológicas.",
         "ultima_conexion": "4 días"
     },
     {
+        "id":"7",
         "nombre": "Elena Rojas",
         "img": "/users/perfil1.png",
         "message": "Diseñadora UX/UI enfocada en accesibilidad.",
         "ultima_conexion": "1 mes"
     },
     {
+        "id":"8",
         "nombre": "Miguel Sánchez",
         "img": "/users/perfil2.png",
         "message": "Analista de datos con experiencia en machine learning.",
         "ultima_conexion": "3 días"
     },
     {
+        "id":"9",
         "nombre": "Andrea Torres",
         "img": "/users/perfil1.png",
         "message": "Especialista en ciberseguridad y hacking ético.",
         "ultima_conexion": "2 meses"
     },
     {
+        "id":"10",
         "nombre": "Daniel Castillo",
         "img": "/users/perfil1.png",
         "message": "Desarrollador móvil con experiencia en Flutter.",
