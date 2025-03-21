@@ -11,6 +11,7 @@ const Navbar = () => {
   const handleActionClick = (id: string) => {
     setActiveAction(prev => (prev == id ? null : id))
   }
+  /* prueba */
   const menuItems = [
     { name: "Home", id: "home", path: "/", icon: "fa-solid fa-house" },
     { name: "Friends", id: "friends", path: "/friends", icon: "fa-solid fa-user-group" },
