@@ -1,4 +1,4 @@
-import  { useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const SidebarMain = () => {
@@ -127,11 +127,11 @@ const SidebarMain = () => {
               {index < countItems ? (
                 <>
                   <Link key={item.text} to={item.path} className="flex items-center p-2 hover:bg-slate-100 hover:rounded-md">
+                    <span className="flex justify-center items-center bg-slate-50 h-10 w-10 text-2xl rounded-full text-black "><i className={item.icon} ></i></span>
                     <div className='pl-2'>
                       {item.text} 
                     </div>
                   </Link>
-                    <span className="flex justify-center items-center bg-slate-50 h-10 w-10 text-2xl rounded-full text-black "><i className= {item.icon} ></i></span>
 
                 </>
               ) : (
